@@ -91,7 +91,7 @@ export const projects = [
     description:
       "English Vocabulary Builder for competitive exam aspirants. Features MCQ quizzes, Hindi transliteration, admin authentication, and cloud deployment.",
     tech: ["React", "Express.js", "MongoDB", "JWT", "Render"],
-    liveLink: "https://vocabvault-8ooj.onrender.com",
+    liveLink: "https://vocab.versatilesoul.co.in",
     githubLink: "https://github.com/VersatileSoul/VocabVault",
     highlight: true,
   },
