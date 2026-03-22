@@ -91,7 +91,7 @@ export const projects = [
     description:
       "English Vocabulary Builder for competitive exam aspirants. Features MCQ quizzes, Hindi transliteration, admin authentication, and cloud deployment.",
     tech: ["React", "Express.js", "MongoDB", "JWT", "Render"],
-    liveLink: "https://vocab.versatilesoul.co.in",
+    liveLink: "https://vocabvault-8ooj.onrender.com",
     githubLink: "https://github.com/VersatileSoul/VocabVault",
     highlight: true,
   },
@@ -101,6 +101,7 @@ export const projects = [
     description:
       "Real-time bus tracking system with role-based authentication (admin, officer, driver, conductor) and JWT token-based security. Features RESTful APIs for managing stations, buses, routes, and assignments.",
     tech: ["Node.js", "Express.js", "MongoDB", "REST Assured", "Postman"],
+    liveLink: "https://saarthitrack.onrender.com",
     githubLink: "https://github.com/VersatileSoul/SaarthiTrack",
     highlight: true,
   },
