@@ -1,74 +1,84 @@
 export const personalInfo = {
   name: "Ajaykumar Shendage",
   role: "Software Engineer",
-  tagline: "Building scalable full-stack applications with passion and precision",
+  currentRole: "Technical Consultant at NCS Group",
+  tagline: "Enterprise applications, system integrations, and full-stack products built to hold up in production",
   email: "ajaykumarshendage@gmail.com",
   phone: "+918390833210",
   location: "Pune, India",
   linkedin: "https://www.linkedin.com/in/ajaykumar-shendage/",
   github: "https://github.com/VersatileSoul",
+  website: "https://versatilesoul.co.in",
+  // Drives the "Years Experience" stat so it never goes stale.
+  careerStart: "2023-12-01",
   resumeLink: "#",
 };
 
 export const summary =
-  "Software Development Engineer with 2 years of experience building scalable full-stack applications using Node.js, Express.js, and MongoDB. Proficient in designing RESTful APIs, implementing real-time systems with Socket.io, and architecting robust database schemas. Skilled in enterprise-level application development using C#, .NET, and SQL, with expertise in ETL processes and system integration. Strong foundation in JavaScript, Java, and modern web technologies, with hands-on experience in Docker containerization, CI/CD pipelines, and cloud deployment.";
+  "Software engineer working across enterprise application development and system integration. As a Technical Consultant at NCS Group I deliver enhancements spanning SQL, ETL/EAI pipelines and workflow configuration, and troubleshoot end-to-end integrations across Ivalua, AcuBuy, SAP, REST APIs and SFTP. Before that I spent close to two years at Ivalua building features, defect fixes and performance-oriented database queries in C#, .NET and SQL. Outside of client work I build full-stack systems — most recently DFOMS, a transit operations platform in Java and Spring Boot where the workflow order is enforced by database constraints and every approval lands on a hash-chained audit trail.";
 
 export const skills = [
   {
     category: "Programming",
     icon: "💻",
-    items: ["C#", "C++", "Java", "JavaScript", "React.js"],
+    items: ["Java", "C#", "C++", "SQL", "JavaScript", "TypeScript"],
   },
   {
-    category: "Web Development",
+    category: "Backend & Web",
     icon: "🌐",
-    items: ["Node.js", "Express.js", "REST APIs", "Socket.io"],
+    items: [".NET", "Spring Boot", "REST APIs", "React", "Next.js", "Node.js", "Express.js", "Vite"],
   },
   {
-    category: "Automation & Testing",
-    icon: "🧪",
-    items: ["Selenium", "REST Assured", "Playwright", "Postman"],
+    category: "Databases",
+    icon: "🗄️",
+    items: ["Microsoft SQL Server", "PostgreSQL", "PostGIS", "MongoDB", "Prisma"],
   },
   {
-    category: "Frameworks & Methods",
-    icon: "⚙️",
-    items: ["POM", "BDD", "TDD", "Agile", "SDLC", "TestNG", "Cucumber"],
+    category: "Integration",
+    icon: "🔗",
+    items: ["ETL", "EAI", "SAP IDoc/ALEAUD", "XML/JSON", "SFTP", "OAuth"],
   },
   {
-    category: "Databases & Cloud",
-    icon: "☁️",
-    items: ["SQL", "MongoDB", "Mongoose", "AWS"],
-  },
-  {
-    category: "DevOps & Tools",
+    category: "Tools & DevOps",
     icon: "🐳",
-    items: ["Docker", "Git", "GitHub", "Visual Studio", "Maven", "IntelliJ IDEA"],
+    items: ["Git", "Docker", "Maven", "Gradle", "Postman", "Selenium"],
+  },
+  {
+    category: "Engineering Practice",
+    icon: "⚙️",
+    items: ["SDLC", "Agile", "UAT", "Regression Testing", "Code Review", "Performance Optimization"],
+  },
+  {
+    category: "Enterprise Platforms",
+    icon: "🏢",
+    items: ["Ivalua", "AcuBuy", "SAP"],
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Engineer",
-    company: "Ivalua",
+    title: "Technical Consultant",
+    company: "NCS Group",
     location: "Pune, India",
-    period: "Jan 2025 – Present",
+    period: "Apr 2026 – Present",
     type: "full-time",
     points: [
-      "Develop and maintain enterprise-level applications using C#, .NET, and SQL frameworks to deliver new features and enhancements.",
-      "Implement ETL (Extract, Transform, Load) and EAI (Enterprise Application Integration) processes for efficient data mapping and transformation.",
-      "Serve as a key technical contact for clients and partners, troubleshooting issues and managing follow-ups to ensure resolution.",
-      "Author optimized SQL queries and C# methods within project-level applications to improve performance and functionality.",
+      "Develop and deliver enterprise application enhancements across SQL, ETL/EAI and workflow configuration, analysing audit trails, data flows and business rules to take changes through testing, UAT and production deployment.",
+      "Troubleshoot end-to-end integrations spanning Ivalua, AcuBuy, SAP, middleware, REST APIs and SFTP — covering data mapping, interface errors, XML/JSON processing and reprocessing flows.",
+      "Designed and built a React-based integration playbook using JavaScript and Vite, documenting multi-entity SAP/Ivalua P2P flows, EAI/ETL components, workflow paths and integration dependencies.",
     ],
   },
   {
-    title: "Software Intern",
+    title: "Software Engineer",
     company: "Ivalua",
     location: "Pune, India",
-    period: "Jul 2024 – Dec 2024",
-    type: "internship",
+    period: "Jul 2024 – Mar 2026",
+    type: "full-time",
     points: [
-      "Completed Ivalua related certifications and badges.",
-      "Gained hands-on experience with Ivalua's custom frameworks and codebase.",
+      "Developed and maintained enterprise applications using C#, .NET and SQL, delivering application features, defect fixes and performance-oriented database queries.",
+      "Implemented and configured ETL and EAI integrations for data mapping and system-to-system communication, including troubleshooting integration failures and data processing issues.",
+      "Worked across the full SDLC — requirements analysis, design, implementation, testing, debugging, release and production deployment.",
+      "Collaborated with cross-functional and technical stakeholders to analyse defects, implement enhancements, validate fixes and deliver successful application releases.",
     ],
   },
   {
@@ -78,31 +88,35 @@ export const experiences = [
     period: "Dec 2023 – Mar 2024",
     type: "internship",
     points: [
-      "Developed automated test cases using Java, Selenium, and Maven, significantly increasing test coverage.",
-      "Refactored and optimized existing code functions, leading to a measurable reduction in regression testing time and improved code maintainability.",
+      "Developed and maintained automated test suites using Java, Selenium and Maven, refactoring test flows to improve coverage and reduce regression execution time.",
+      "Debugged automation failures and improved test reliability through reusable test components and structured test execution.",
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "VocabVault",
-    emoji: "📖",
+    title: "DFOMS",
+    emoji: "🚍",
     description:
-      "English Vocabulary Builder for competitive exam aspirants. Features MCQ quizzes, Hindi transliteration, admin authentication, and cloud deployment.",
-    tech: ["React", "Express.js", "MongoDB", "JWT", "Render"],
-    liveLink: "https://vocab.versatilesoul.co.in",
-    githubLink: "https://github.com/VersatileSoul/VocabVault",
+      "Digital transit management platform for regional bus operations. Implements a five-step pre-departure depot gate — crew check-in, mechanic fitness, fuelling, gate-out — where the order is enforced twice: by domain guards and by a database check constraint that rejects out-of-order rows even if the application is bypassed. Adds geofenced station sign-offs, row-level security so a controller cannot read another depot's data, and an append-only hash-chained audit trail that records refusals alongside approvals.",
+    tech: ["Java 21", "Spring Boot", "PostgreSQL", "PostGIS", "React", "TypeScript", "Docker", "Gradle"],
     highlight: true,
   },
   {
-    title: "SaarthiTrack",
-    emoji: "🚌",
+    title: "PrepVault",
+    emoji: "📚",
     description:
-      "Real-time bus tracking system with role-based authentication (admin, officer, driver, conductor) and JWT token-based security. Features RESTful APIs for managing stations, buses, routes, and assignments.",
-    tech: ["Node.js", "Express.js", "MongoDB", "REST Assured", "Postman"],
-    liveLink: "https://saarthitrack.onrender.com",
-    githubLink: "https://github.com/VersatileSoul/SaarthiTrack",
+      "Competitive exam preparation platform for SSC aspirants, covering general awareness, vocabulary, previous-year questions, practice sets and progress analytics. Turborepo monorepo pairing a Next.js web app and admin panel with an Expo mobile client over a shared Prisma schema, plus a content pipeline that bulk-imports full chapters of notes, MCQs and flashcards.",
+    tech: ["Next.js", "React 19", "TypeScript", "Prisma", "PostgreSQL", "NextAuth", "Expo", "Tailwind CSS", "Turborepo"],
+    highlight: true,
+  },
+  {
+    title: "Expense Report",
+    emoji: "📊",
+    description:
+      "Bank statement analyser that parses HDFC and ICICI statement exports through a pluggable parser registry, de-duplicates transactions on import, and resolves UPI narrations into normalised counterparties. Supports manual and bulk tagging, splitting one transaction into several categorised parts, and a split-aware analytics dashboard with Excel export and JSON backup or restore.",
+    tech: ["React 19", "Express 5", "MongoDB", "Mongoose", "Recharts", "Tailwind CSS"],
     highlight: true,
   },
   {
@@ -111,25 +125,7 @@ export const projects = [
     description:
       "Comprehensive Docker learning path covering containers, images, volumes, networks, and Docker Compose.",
     tech: ["Docker", "DevOps"],
-    githubLink: "https://github.com/VersatileSoul/Docker-Tutorial",
-    highlight: false,
-  },
-  {
-    title: "SQL Notes",
-    emoji: "📝",
-    description:
-      "Basic to advanced SQL queries and concepts — a quick reference for database operations.",
-    tech: ["SQL", "Database"],
-    githubLink: "https://github.com/VersatileSoul/SQL-Notes",
-    highlight: false,
-  },
-  {
-    title: "JavaScript Tutorial",
-    emoji: "⚡",
-    description:
-      "JavaScript fundamentals and advanced concepts with hands-on examples.",
-    tech: ["JavaScript"],
-    githubLink: "https://github.com/VersatileSoul/javascript-tutorial",
+    githubLink: "https://github.com/VersatileSoul/docker-tutorial",
     highlight: false,
   },
   {
@@ -144,16 +140,18 @@ export const projects = [
 ];
 
 export const education = {
-  degree: "BTech",
+  degree: "B.Tech in Computer Engineering",
   college: "PCCOE, Pune",
   period: "2020 – 2024",
   cgpa: "8.59",
 };
 
 export const certifications = [
+  "Ivalua — L1, L2 Technical, L3 SQL, L3 INT (Integration)",
+  "Ivalua Platform Skill Badges — Configuration & Technical tracks",
   "JavaScript — Udemy",
-  "Shell Scripting — LinkedIn Learning",
   "Docker Foundational — LinkedIn Learning",
+  "Shell Scripting — LinkedIn Learning",
 ];
 
 export const leadership = [

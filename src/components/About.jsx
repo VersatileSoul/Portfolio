@@ -1,4 +1,20 @@
-import { summary, personalInfo } from '../data/portfolio';
+import { summary, personalInfo, projects, skills, certifications } from '../data/portfolio';
+
+const yearsOfExperience = Math.floor(
+  (Date.now() - new Date(personalInfo.careerStart)) / (365.25 * 24 * 60 * 60 * 1000)
+);
+
+// "Engineering Practice" lists methodologies, not technologies, so it is left out of the count.
+const technologyCount = new Set(
+  skills.filter((g) => g.category !== 'Engineering Practice').flatMap((g) => g.items)
+).size;
+
+const stats = [
+  { number: `${yearsOfExperience}+`, label: 'Years Experience' },
+  { number: `${projects.length}`, label: 'Projects Built' },
+  { number: `${Math.floor(technologyCount / 5) * 5}+`, label: 'Technologies' },
+  { number: `${certifications.length}`, label: 'Certifications' },
+];
 
 export default function About() {
   return (
@@ -21,27 +37,17 @@ export default function About() {
               </div>
               <div className="about-detail-item">
                 <span className="detail-label">Current Role</span>
-                <span className="detail-value">💼 Software Engineer at Ivalua</span>
+                <span className="detail-value">💼 {personalInfo.currentRole}</span>
               </div>
             </div>
           </div>
           <div className="about-stats">
-            <div className="stat-card">
-              <span className="stat-number">2+</span>
-              <span className="stat-label">Years Experience</span>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">6+</span>
-              <span className="stat-label">Projects Built</span>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">15+</span>
-              <span className="stat-label">Technologies</span>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">3</span>
-              <span className="stat-label">Certifications</span>
-            </div>
+            {stats.map((stat) => (
+              <div key={stat.label} className="stat-card">
+                <span className="stat-number">{stat.number}</span>
+                <span className="stat-label">{stat.label}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
