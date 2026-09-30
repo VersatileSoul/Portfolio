@@ -119,24 +119,6 @@ export const projects = [
     tech: ["React 19", "Express 5", "MongoDB", "Mongoose", "Recharts", "Tailwind CSS"],
     highlight: true,
   },
-  {
-    title: "Docker Tutorial",
-    emoji: "🐳",
-    description:
-      "Comprehensive Docker learning path covering containers, images, volumes, networks, and Docker Compose.",
-    tech: ["Docker", "DevOps"],
-    githubLink: "https://github.com/VersatileSoul/docker-tutorial",
-    highlight: false,
-  },
-  {
-    title: "Striver's A2Z DSA",
-    emoji: "☕",
-    description:
-      "Solutions to Striver's A2Z DSA Sheet problems implemented in Java.",
-    tech: ["Java", "DSA"],
-    githubLink: "https://github.com/VersatileSoul/Strivers-A2Z-DSA-Course",
-    highlight: false,
-  },
 ];
 
 export const education = {
