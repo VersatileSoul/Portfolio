@@ -15,7 +15,7 @@ export const personalInfo = {
 };
 
 export const summary =
-  "Software engineer working across enterprise application development and system integration. As a Technical Consultant at NCS Group I deliver enhancements spanning SQL, ETL/EAI pipelines and workflow configuration, and troubleshoot end-to-end integrations across Ivalua, AcuBuy, SAP, REST APIs and SFTP. Before that I spent close to two years at Ivalua building features, defect fixes and performance-oriented database queries in C#, .NET and SQL. Outside of client work I build full-stack systems — most recently DFOMS, a transit operations platform in Java and Spring Boot where the workflow order is enforced by database constraints and every approval lands on a hash-chained audit trail.";
+  "Software engineer working across enterprise application development and system integration. As a Technical Consultant at NCS Group I deliver enhancements spanning SQL, ETL/EAI pipelines and workflow configuration, and troubleshoot end-to-end integrations across Ivalua, SAP, REST APIs and SFTP. Before that I spent close to two years at Ivalua building features, defect fixes and performance-oriented database queries in C#, .NET and SQL. Outside of client work I build full-stack systems — most recently DFOMS, a transit operations platform in Java and Spring Boot where the workflow order is enforced by database constraints and every approval lands on a hash-chained audit trail.";
 
 export const skills = [
   {
@@ -51,7 +51,7 @@ export const skills = [
   {
     category: "Enterprise Platforms",
     icon: "🏢",
-    items: ["Ivalua", "AcuBuy", "SAP"],
+    items: ["Ivalua", "SAP"],
   },
 ];
 
@@ -64,7 +64,7 @@ export const experiences = [
     type: "full-time",
     points: [
       "Develop and deliver enterprise application enhancements across SQL, ETL/EAI and workflow configuration, analysing audit trails, data flows and business rules to take changes through testing, UAT and production deployment.",
-      "Troubleshoot end-to-end integrations spanning Ivalua, AcuBuy, SAP, middleware, REST APIs and SFTP — covering data mapping, interface errors, XML/JSON processing and reprocessing flows.",
+      "Troubleshoot end-to-end integrations spanning Ivalua, SAP, middleware, REST APIs and SFTP — covering data mapping, interface errors, XML/JSON processing and reprocessing flows.",
       "Designed and built a React-based integration playbook using JavaScript and Vite, documenting multi-entity SAP/Ivalua P2P flows, EAI/ETL components, workflow paths and integration dependencies.",
     ],
   },
